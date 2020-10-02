@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csproj", "{784F641C-2E92-4BE2-9FA3-FA93CD26FE23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiAmigo", "WebApi.Amigo\WebApiAmigo.csproj", "{83442CC8-C628-485C-9175-0F0D5E0D6825}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiPais", "WebApi.Pais\WebApiPais.csproj", "{FA06A20C-E623-4FA1-A083-84DC52AC67A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{784F641C-2E92-4BE2-9FA3-FA93CD26FE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784F641C-2E92-4BE2-9FA3-FA93CD26FE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784F641C-2E92-4BE2-9FA3-FA93CD26FE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784F641C-2E92-4BE2-9FA3-FA93CD26FE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83442CC8-C628-485C-9175-0F0D5E0D6825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83442CC8-C628-485C-9175-0F0D5E0D6825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83442CC8-C628-485C-9175-0F0D5E0D6825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83442CC8-C628-485C-9175-0F0D5E0D6825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA06A20C-E623-4FA1-A083-84DC52AC67A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA06A20C-E623-4FA1-A083-84DC52AC67A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA06A20C-E623-4FA1-A083-84DC52AC67A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA06A20C-E623-4FA1-A083-84DC52AC67A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83B01515-8C8D-4AAC-B094-6B7A3D7212F4}
+	EndGlobalSection
+EndGlobal
