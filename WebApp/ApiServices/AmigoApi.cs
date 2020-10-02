@@ -61,7 +61,7 @@ namespace WebApp.ApiServices
 
         public async Task<ListarAmigoViewModel> GetAsync(string id)
         {
-            var response = await _httpClient.GetAsync("api/amigos" + id);
+            var response = await _httpClient.GetAsync("api/amigos/" + id);
 
             var responseContent = await response.Content.ReadAsStringAsync();
 
