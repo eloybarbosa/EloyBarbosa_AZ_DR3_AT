@@ -58,7 +58,19 @@ namespace WebApp.ApiServices
 
             return list;
         }
-        
+
+        public async Task<ListarAmigoViewModel> GetAsync(string id)
+        {
+            var response = await _httpClient.GetAsync("api/amigos" + id);
+
+            var responseContent = await response.Content.ReadAsStringAsync();
+
+            return JsonConvert.DeserializeObject<ListarAmigoViewModel>(responseContent);
+
+        }
+
+
+
     }
 }
     

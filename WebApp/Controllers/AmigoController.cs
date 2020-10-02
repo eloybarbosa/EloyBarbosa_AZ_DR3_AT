@@ -64,15 +64,17 @@ namespace WebApp.Controllers
        
 
         // GET: AmigoController/Edit/5
-        public ActionResult Edit(int id)
+        public async Task<ActionResult> Edit(string id)
         {
-            return View();
+            var viewModel =await _amigoApi.GetAsync(id);
+
+            return View(viewModel);
         }
 
         // POST: AmigoController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, ListarAmigoViewModel editarAmigoViewModel)
         {
             try
             {

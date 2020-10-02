@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using WebApiAmigo.Domain;
 using WebApiAmigo.Resources.AmigoResource;
 
 namespace WebApiAmigo.AutomapperProfiles

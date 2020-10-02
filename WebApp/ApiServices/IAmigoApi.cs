@@ -7,7 +7,9 @@ namespace WebApp.ApiServices
     public interface IAmigoApi
     {
         Task<CriarAmigoViewModel> PostAsync(CriarAmigoViewModel criarAmigoViewModel);
-        Task<List<ListarAmigoViewModel>> GetAsync();
+        
+        Task<ListarAmigoViewModel> GetAsync(string id);
 
+        Task<List<ListarAmigoViewModel>> GetAsync();
     }
 }

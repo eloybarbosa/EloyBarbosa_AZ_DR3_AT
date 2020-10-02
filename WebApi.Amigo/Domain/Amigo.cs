@@ -10,7 +10,7 @@ namespace WebApiAmigo.Domain
         public string Nome { get; set; }
         public string Cpf { get; set; }
         public string Endereco { get; set; }
-        public List<Pais> Paises { get; set; }
+        public virtual List<Pais> Paises { get; set; }
 
     }
 }
